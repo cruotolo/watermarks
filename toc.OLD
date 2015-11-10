@@ -1,0 +1,18 @@
+<html>
+<head><title>Reproducing Watermarks with a Digital Camera</title></head>
+
+<body background="back.jpg">
+<br><br>
+<img src="toc.gif" usemap="#toc" border="0" hspace="0">
+
+<map name="toc">
+<area shape="rect" alt="About this Site" coords="3,2,88,15" href="about.html" target="rightframe">
+<area shape="rect" alt="Methodology" coords="3,21,82,37" href="method.html" target="rightframe">
+<area shape="rect" alt="Sample Images" coords="3,42,91,57" href="sample.html" target="rightframe">
+<area shape="rect" alt="References" coords="2,62,69,76" href="reference.html" target="rightframe">
+<area shape="rect" alt="E-mail Comments" coords="1,82,105,96" href="mailto:cjr2q@virginia.edu" target="rightframe">
+<area shape="rect" alt="Home" coords="3,100,42,116" href="http://etext.lib.virginia.edu/watermarks/" target="_top">
+<area shape="default" nohref>
+</map>
+</body>
+</html>

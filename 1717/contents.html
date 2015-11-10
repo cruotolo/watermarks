@@ -1,0 +1,86 @@
+<html>
+<head>
+<title>Reproducing Watermarks with a Digital Camera</title>
+<script>
+function BrowserCheck() {
+        var b = navigator.appName
+        if (b=="Netscape") this.b = "ns"
+        else if (b=="Microsoft Internet Explorer") this.b = "ie"
+        else this.b = b
+        this.v = parseInt(navigator.appVersion)
+        this.ns = (this.b=="ns" && this.v>=4)
+        this.ns4 = (this.b=="ns" && this.v==4)
+        this.ns5 = (this.b=="ns" && this.v==5)
+        this.ie = (this.b=="ie" && this.v>=4)
+        this.ie4 = (navigator.userAgent.indexOf('MSIE 4')>0)
+        this.ie5 = (navigator.userAgent.indexOf('MSIE 5')>0)
+        if (this.ie5) this.v = 5
+        this.min = (this.ns||this.ie)
+}
+
+is = new BrowserCheck()
+
+function findWH() {
+        winW = (is.ns)? window.innerWidth : document.body.offsetWidth-20
+        winH = (is.ns)? window.innerHeight : document.body.offsetHeight-4
+}
+
+function newWin(url, name) {
+        var h = 360
+        var w = 243
+        var offset = (window.screen.availWidth-w)/2
+        if (is.ns) {
+                var winParams = 'width=' + w + ',height=' + h + ',screenX=' + offset
+        } else {
+                var winParams = 'width=' + w + ',height=' + h + ',left=' + offset + ',top=' + 10
+        }
+        window.open(url, name, winParams)
+}
+</script>
+
+</head>
+
+<body background="/watermarks/back.jpg" link="#000080">
+<center>
+<i>The Works of Alexander Pope</i>: London, 1717 [2<sup>0</sup>]<br>
+PR 3620 1717<br><br> 
+<a href="full.1717-chi1.html">chi1</a> |
+<a href="full.1717-chi2.html">chi2</a> |
+<a href="full.1717-c1.html">c1</a> |
+<a href="full.1717-g1.html">g1</a> |
+<a href="full.1717-B1.html">[B1]</a> |
+<a href="full.1717-B2.html">B2</a> |
+<a href="full.1717-C1.html">C1</a> |
+<a href="full.1717-C2.html">C2</a> |
+<a href="full.1717-D1.html">D1</a> |
+<a href="full.1717-D2.html">D2</a> |
+<a href="full.1717-E1.html">E1</a> |
+<a href="full.1717-E2.html">E2</a> |
+<a href="full.1717-Ss1.html">Ss1</a> |
+<a href="full.1717-Ss2.html">Ss2</a> |
+<a href="full.1717-Sss2.html">Sss2</a>
+<hr><br>
+
+</center>
+<table width="80%" align="center" border="0">
+<tr><td>
+<p>This folio contains two primary types of paper: sheets with a small fleur-de-lis
+and an "IV" countermark, and sheets with a larger fleur-de-lis and no apparent 
+countermark.  In the former instance, I photographed both mark and countermark.  The
+folio's size and flexible binding made for relatively easy photographing, although
+the heavy amount of text over some of the marks makes it a challenge
+to interpret them.  Yet, by digitally enhancing the marks and superimposing
+them upon one another, we can get a good sense of their relationship to one another.
+For example, a simple animation program helps to reveal that the watermarks on leaves
+
+<a href="javascript:newWin('http://etext.lib.virginia.edu/watermarks/1717/overlaya.gif', 'overlay')">
+g1 and Sss2</a>
+quite possibly came from the same mold, while the marks on 
+<a href="javascript:newWin('http://etext.lib.virginia.edu/watermarks/1717/overlayb.gif', 'overlayb')">
+g1 and c1</a> are
+certainly different.
+
+</td></tr>
+</table>
+</body>
+</html>

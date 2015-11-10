@@ -1,0 +1,79 @@
+<html>
+<head>
+<title>Reproducing Watermarks with a Digital Camera</title>
+<script>
+function BrowserCheck() {
+        var b = navigator.appName
+        if (b=="Netscape") this.b = "ns"
+        else if (b=="Microsoft Internet Explorer") this.b = "ie"
+        else this.b = b
+        this.v = parseInt(navigator.appVersion)
+        this.ns = (this.b=="ns" && this.v>=4)
+        this.ns4 = (this.b=="ns" && this.v==4)
+        this.ns5 = (this.b=="ns" && this.v==5)
+        this.ie = (this.b=="ie" && this.v>=4)
+        this.ie4 = (navigator.userAgent.indexOf('MSIE 4')>0)
+        this.ie5 = (navigator.userAgent.indexOf('MSIE 5')>0)
+        if (this.ie5) this.v = 5
+        this.min = (this.ns||this.ie)
+}
+
+is = new BrowserCheck()
+
+function findWH() {
+        winW = (is.ns)? window.innerWidth : document.body.offsetWidth-20
+        winH = (is.ns)? window.innerHeight : document.body.offsetHeight-4
+}
+
+function newWin(url, name) {
+        var h = 500
+        var w = 243
+        var offset = (window.screen.availWidth-w)/2
+        if (is.ns) {
+                var winParams = 'width=' + w + ',height=' + h + ',screenX=' + offset
+        } else {
+                var winParams = 'width=' + w + ',height=' + h + ',left=' + offset + ',top=' + 10
+        }
+        window.open(url, name, winParams)
+}
+</script>
+</head>
+
+<body background="/watermarks/back.jpg" link="#000080">
+<center>
+<i>The Works of Alexander Pope</i>: London, 1717 [4<sup>0</sup>]<br>
+PR 3620 1717c vol.1<br><br>
+
+<a href="full.1717c-chi1.html">chi1</a> |
+<a href="full.1717c-chi2.html">chi2</a> |
+<a href="full.1717c-a2.html">a2</a> |
+<a href="full.1717c-a3.html">a3</a> |
+<a href="full.1717c-b2.html">b2</a> |
+<a href="full.1717c-b3.html">b3</a> |
+<a href="full.1717c-c2.html">c2</a> |
+<a href="full.1717c-c3.html">c3</a> 
+
+<hr>
+<br>
+</center>
+<table width="80%" align="center" border="0">
+<tr><td>
+<p>
+The quarto proved to be a difficult format for this method of watermark capture, as the
+marks in this format appear in the middle of the spine fold, and it's particularly difficult
+to position the book under the camera in a way that allows for image capture down
+into the gutter.  As these images demonstrate, the overhead lighting and the 
+slight thickness of the NoUVIR paddle combine to cast a shadow into the gutter
+that cuts off part of the visible area of the watermark.  When this truncation is
+compounded by the fact that a piece of the watermark is invariably trapped 
+within the binding itself, the results seem fragmentary indeed.  I've pieced 
+together the marks from leaves 
+<a href="javascript:newWin('http://etext.lib.virginia.edu/watermarks/1717c/compositeb.jpg', 'composite')">
+chi1 and chi2</a> into a single image; although the 
+reproductions are clear, a good third of the watermark is evidently missing.</p>
+
+</td></tr>
+</body>
+</html>
+
+

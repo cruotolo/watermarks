@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Reproducing Watermarks with a Digital Camera</title>
+</head>
+
+<body background="/watermarks/back.jpg" link="#000080">
+<center>
+<i>The Works of Alexander Pope</i>: London, 1717 [4<sup>0</sup><br>
+PR 3620 1717c vol.1<br>
+chi1<br><br>
+<a href="full.1717c-chi1.html">Full view</a>
+</center>
+
+<br>
+
+<center>
+<table border="2" cellpadding="5">
+<tr>
+<td align="center" valign="bottom">
+<img src="chi1crop.JPG"><br>
+<font size="-1">Cropped detail</font>
+</td>
+<td align="center" valign="bottom">
+<img src="chi1levels.JPG"><br>
+<font size="-1">Rotated; levels adjusted</font>
+</td>
+</tr><tr>
+<td align="center" valign="bottom">
+<img src="chi1invert.JPG"><br>
+<font size="-1">Inverted</font>
+</td>
+<td align="center" valign="bottom">
+<img src="chi1paint.JPG"><br>
+<font size="-1">Ink masked</font>
+</td>
+</tr>
+</table>
+</center>
+
+
+</body>
+</html>

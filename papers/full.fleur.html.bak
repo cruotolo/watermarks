@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Reproducing Watermarks with a Digital Camera</title>
+</head>
+
+<body background="/watermarks/back.jpg" link="#000080">
+<center>
+
+<a href="contents.html">Watermarked papers -- various patterns</a>
+<br><br>
+<a href="full.bigpot.html">Large pot pattern</a> |
+<a href="full.crest1.html">Crest pattern</a> |
+<a href="full.crest2.html">Crest pattern [2]</a> |
+<a href="full.hand.html">Hand pattern</a> |
+<a href="full.fleur.html">Crown pattern</a> |
+<a href="full.vase1.html">Small pot pattern</a>
+
+<hr>
+
+<center>
+Crown pattern<br>
+Crown, Strasbourg lily, WR.  Early 18th c. 
+<br><br>
+<a href="detail.fleur.html">Display detail</a>
+</center>
+
+<br>
+
+<center>
+<img src="fleur.JPG">
+</center>
+
+
+</body>
+</html>
