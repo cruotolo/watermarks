@@ -1,0 +1,152 @@
+<html>
+ 
+<head>
+<title>Methods for Watermark Capture and Analysis</title>
+</head>
+
+<body background="/watermarks/back.jpg" link="#000080">
+<br>
+<table width="80%" align="center" border="0">
+<tr><td>
+<h3><font color="#000080">Methods for Watermark Capture and Analysis</font></h3>
+
+<p>My print materials for this project included four editions of Alexander 
+Pope, printed in London between 1717 and 1734.  To get a sense of the 
+difficulties involved in recreating watermarks in different print formats, 
+I used two folios, a quarto, and an
+octavo.  I didn't attempt to capture every watermark in these volumes. In 
+the folios, I tried to capture the  variety of marks throughout each book, 
+focusing primarily on those that were clearest and most intact.  In the 
+quarto and octavo, I was particularly interested in marks that had been 
+split onto separate leaves, to see if the whole could be reconstructed 
+from the digital pieces.  I was also 
+fortunate to have access to some unbound leaves, thanks to Terry Belanger 
+of the Book Arts Press.  These unbound leaves were particularly valuable 
+because they were intact, and there was little or no printing on them to 
+obscure the watermark; they were in this sense an "ideal" test case for 
+the digital camera capture method.  
+
+<p>To create the digital images, I used a mounted Kontron ProgRes 3012 
+Ultra High Resolution Digital Color Camera, running on a Macintosh 
+workstation.  Because the books I was photographing were rare and in 
+some cases fragile, I used wooden book cradles to support them under 
+the camera and a combination of foam wedges and lucite page holders to 
+position and hold them open.  The limits of this delicate operation, 
+especially for books that were tightly bound, led to the first of several 
+methodological compromises: instead of shooting each leaf from the mold 
+side, in a uniform orientation, as I had intended, I shot whichever angle 
+I could most easily maneuver under the camera, rotating and flipping the 
+images at a later stage of processing when necessary.  
+
+<p>To get the watermark to register in the digital photograph, I needed to 
+illuminate each leaf from beneath while shooting.  I used a thin, flexible 
+fiber-optic light paddle manufactured by a company called 
+<a href="bigconnect.com">NoUVIR Research</a>, slipping the paddle underneath 
+the leaf just before shooting. I also laid a transparent millimeter rule 
+over each leaf before shooting; since the images have been cropped and 
+resized during processing, the rule provides a mechanism for rescaling 
+each mark to its original dimensions.  I've included physical measurements 
+of each watermark along with the images.
+
+<p>When working with the smaller formats, I photographed the entire leaf 
+whenever possible, but on the larger folios and unbound leaves I chose to 
+focus in on the watermark rather than zooming out to capture the edges of 
+the paper.  Each image was shot as a 600 dpi TIFF; the initial capture took 
+several minutes for each image, and file size was frequently in excess of 
+50MB.  I shipped the finished TIFFs from the Mac workstation to the Etext 
+Center's Unix server, where I used a tool called ImageMagick to batch 
+process the TIFFs into JPEGs at 50% compression.  The TIFFS were then 
+archived to CD-ROMs and cleared off the server; all further manipulation 
+and analysis involved the JPEG copies only. 
+
+<p>I opened each JPEG in Adobe Photoshop and saved a copy, slightly reduced 
+in dimensions but otherwise unaltered, to serve as the "full view" image.  
+Returning to the full-sized image, I cropped out the watermark to create 
+the "cropped detail".  When necessary, I flipped the image around to what 
+I determined to be the mold side view, and rotated it to a uniform 
+orientation (i.e. what I determined to be "right-side up"); I then 
+ran Photoshop's "Auto Levels" command, which maximizes color contrast, 
+to create a second version of the cropped image.  The "Invert" command 
+produces the inverted image; I've included this version because sometimes, 
+particularly with highly detailed watermarks, the image registers more 
+clearly as a dark outline on a light background than as the reverse.  
+Finally, I experimented with a variety of manual techniques for masking 
+out the type on the leaf, resulting in the "ink masked" version of the 
+image.  In most cases, I've included all four images, leaving it up to 
+the viewer to determine which is easiest to compare and interpret.
+
+<h3><font color="#000080">Preliminary Evaluation of the Method</font></h3>
+
+<p>Because I deliberately used a wide variety of papers to generate my
+sample images, my results ranged from extremely good to extremely poor.
+Under ideal conditions (a prominent watermark on an unbound leaf,
+unobscured by text) the digital images resulting from this method are 
+as crisp and well-defined as one could hope for -- see, for example,
+details for the
+<a href="/watermarks/papers/detail.bigpot.html">large
+pot</a> and the 
+<a
+href="/watermarks/papers/detail.hand.html">hand</a>.
+But upon deviation from this ideal, the limits of the method reveal
+themselves.  Unlike beta-radiography, the digital camera method itself
+cannot mask out ink in the image capture; on heavily printed pages,
+therefore, it is not an acceptable alternative to the former method.
+
+<p>The digital images generated with this method are often comparable to
+the those obtained by scanning a Dylux print.  In both cases, photo
+manipulations and enhancements can be used to enhance the contrast of
+the image and bring the watermark out against the text.  Although I
+wasn't able to perform these enhancements as dramatically as I had
+anticipated, I believe that our ability to tweak these images will
+improve as photo manipulation software becomes more sophisticated and
+more powerful, allowing for the editing and display of images at much
+higher resolutions.  If this turns out to be the case, the digital
+camera may have a slight edge over Dylux, as the camera captures true
+color information that we may be better able to exploit in the future.
+And because the camera's reproductions are natively digital, there is no
+need for the extra scanning step that necessarily introduces the
+possibility of degradation or corruption of the image.  
+
+<p>Still, the Dylux method has some powerful advantages over the digital
+camera.  Dylux is clearly the most physically adaptive of the two methods, 
+as the key piece of equipment is
+just a thin sheet of photosensitive paper, which can be slid far down into the
+gutter of a bound book, maximizing the area of each leaf that can be
+captured and hugging the contours of the page.
+In contrast to the elegance of this method, the camera method
+seems cumbersome.  A bound book must be propped open widely enough to allow
+the photograph to be taken, a procedure that poses a threat to delicate bindings.  
+The curvature of the page and the resulting shadows make it difficult to
+capture the entire surface of the page, particularly in books that are
+tightly bound. This limitation particularly impacts quarto and octavo
+formats, in which the watermarks are often tucked deep into the binding;
+in addition, the page curvature certainly has some impact on the integrity of the
+reproduction relative to Dylux.  
+
+<p>And we haven't yet considered the simple practical
+advantages of the more traditional method: because Dylux paper is easily obtained, inexpensive, and highly
+portable, a Dylux transfer can be made just about anywhere, quickly and
+conveniently.  A $30,000 digital camera is considerably less portable;
+and even those scholars lucky enough to have access to one are limited
+by the need to bring the books to the equipment, rather than simply
+bringing a few sheets of photosensitive paper to the reading room.
+While more and more libraries are following the University of Virginia's lead in
+setting up digitizing facilities exclusively for their special
+collections, and it is conceivable that libraries may one day deliver
+digital images of watermarks upon the request of their patrons, this is
+clearly not a service we can expect any time soon.
+
+<p>Despite all of the difficulties inherent in the method, though, 
+the results of my small experiment with the digital camera were
+promising enough to lead me to think about further experiments.
+Hand-held high-resolution
+digital cameras, alternate lighting schemes, special lens
+filters for masking out ink -- I can envision a number of 
+improvements that could make the direct digital capture of watermarks
+more practical and improve the quality of the results.
+
+<p>
+
+</td></tr></table>
+ 
+</html>

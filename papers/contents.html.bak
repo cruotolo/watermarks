@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>Reproducing Watermarks with a Digital Camera</title>
+</head>
+
+<body background="/watermarks/back.jpg" link="#000080">
+<center>
+
+Watermarked papers -- various patterns
+<br><br>
+
+<a href="full.bigpot.html">Large pot pattern</a> |
+<a href="full.crest1.html">Crest pattern</a> |
+<a href="full.crest2.html">Crest pattern [2]</a> |
+<a href="full.hand.html">Hand pattern</a> |
+<a href="full.fleur.html">Crown pattern</a> |
+<a href="full.vase1.html">Small pot pattern</a>
+
+<hr>
+</center>
+<br>
+<table width="80%" align="center" border="0">
+<tr><td>
+<p>As described in the methods section, these various papers provided ideal conditions
+for watermark capture, as they were unbound and in most cases 
+devoid of printing.  I searched on these pattern types in the Gravell watermark 
+archive (see the <a href="../references.html">archives</a> section) and while I didn't find any dead-on
+matches, I did find several analogues for my images, some quite striking -- see, for example,
+one of the hand watermarks (ca. 1583) from the Gravell collection juxtaposed against the hand watermark
+in the 
+comparable watermarks for the hand, etc.</p>
+</td></tr></table>
+</body>
+</html>

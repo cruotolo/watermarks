@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>Reproducing Watermarks with a Digital Camera</title>
+</head>
+
+<body background="back.jpg" link="#0A0355">
+<table width="80%" border="0" align="center">
+<tr>
+<td align="left">
+<p>
+This website is part of an ongoing project to assess the advantages and disadvantages of using a digital camera to capture, preserve, compare, and disseminate watermarks.  My ultimate goal is to develop a method for using the digital camera that will serve as a useful alternative to the current methods currently used -- photoreactive Dylux paper and (to a lesser extent) beta-radiography.  Although these methods have certain distinct advantages over digital photography, I believe that the likelihood of increasing availability of digital cameras in the future, combined with increasing ubiquity of the internet as a vehicle for sharing digital images, will make this digital method of reproducing watermarks an increasingly valuable supplement to conventional methods in the years to come.</p>
+
+<p>The methodology section describes the equipment and techniques used to photograph the images, as well as to process and enhance them.  It notes successes as well as some disappointing limitations, and tries to share some lessons learned along the way.  I've been as thorough and explicit as possible in this section, so that anyone undertaking a similar project in the future can use this work as a point of departure or comparison.
+</p>
+
+<p>The image samples included in this project are not intended to provide a comprehensive study of the paper of any one particular codex.  Rather, they provide a broad overview of the camera's efficacy on different types of paper and different formats.  I've provided images from folio, quarto, and octavo volumes, as well as a number of unbound leaves.  I've tried to address the technical challenges associated with each format, and the methodological adjustments necessitated by each one.  Each image produced appears in several different incarnations -- as the "raw" unprocessed image straight from the camera, as a cropped detail, rotated to a uniform perspective with the color levels automatically adjusted, inverted to make the watermark stand out as a dark outline on a light background (which frequently appears easier to distinguish); and finally as a "painted" image containing one or more manual enhancements.  
+</p>
+
+<p>The References section contains links a few major online watermark archives, which differ from this archive in that the images were created mechanically with Dylux paper and digitized at a later stage.  My hope is that this references section will continue to grow as more scholars experiment with digital cameras and with the dissemination of watermark reproductions over the internet.
+</p>
+
+<p>I look forward to comments, questions, and suggestions regarding this project or any of the work that went into it.
+</p>
+
+<p>CJR<br>
+15 January 1999
+</p>
+
+</td>
+</tr>
+</table>
+
+
+
+</body>
+</html>

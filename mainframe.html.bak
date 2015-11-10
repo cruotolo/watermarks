@@ -1,0 +1,17 @@
+<html
+<head><title>Reproducing Watermarks with a Digital Camera</title></head>
+
+<frameset rows="40,*" border="0">
+  <frame src="banner.html" name="topframe">
+  <frameset cols="130,*" border="0">
+     <frame src="toc.html" name="leftframe">
+     <frame src="intro.html" name="rightframe">
+  </frameset>
+</frameset>
+
+<noframes>
+<body bgcolor="#FFFFFF">
+<p>Sorry, you need a frames-capable browser to view these pages.</p> 
+</body>
+</noframes>
+</html>
